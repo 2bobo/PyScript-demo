@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>helloworld_2</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+
+<body>
+    <h1>Hello, World! 2</h1>
+    <br>
+
+    <!-- py-configでterminal出力をオフ -->
+    <py-config>
+        terminal = false
+    </py-config>
+    <!--outputするIDを指定 -->
+    <py-script output="output">
+        print('Hello, World!')
+    </py-script>
+    <!--output先 -->
+    <div id="output"></div>
+
+</body>
