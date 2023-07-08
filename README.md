@@ -1,2 +1,2 @@
 # PyScript-demo
-とりあえず移動させた。
+Python東海 用のネタ
